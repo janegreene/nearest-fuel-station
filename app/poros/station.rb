@@ -5,7 +5,7 @@ class Station
     @address = station[:fuel_stations][0][:street_address]+ " " + station[:fuel_stations][0][:city]
     @fuel_type = station[:fuel_stations][0][:fuel_type_code]
     @access_times = station[:fuel_stations][0][:access_days_time]
-
+    #Dione did this portion in a Navigation poro see screen shot 7/27 10:22am
     @distance = directions[:route][:distance]
     @time = directions[:route][:formattedTime]
     @narrative = directions[:route][:legs][0][:maneuvers][0][:narrative]

@@ -1,9 +1,11 @@
 <h2>Nearest Station</h2>
-<p> <%= @nearest_station.name %></p>
-<p> <%= @nearest_station.access_times %></p>
-<p> <%= @nearest_station.distance %></p>
-<p> <%= @nearest_station.fuel_type %></p>
-<p> <%= @nearest_station.address %></p>
-<p> <%= @nearest_station.time %></p>
+<p class = "name"> <%= @nearest_station.name %></p>
+<p class = "access-time"> <%= @nearest_station.access_times %></p>
+<p class = "distance"> <%= @nearest_station.distance %></p>
+<p class = "fuel-type"> <%= @nearest_station.fuel_type %></p>
+<p class = "address"> <%= @nearest_station.address %></p>
+<p class = "travel-time"> <%= @nearest_station.time %></p>
+<div class="directions">
 <p> <%= @nearest_station.narrative %></p>
 <p> <%= @nearest_station.narrative1 %></p>
+</div>
